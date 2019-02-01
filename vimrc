@@ -51,9 +51,9 @@ autocmd! FileType qf set winheight=10 " min quickfix window height
 
 " solarized - color schemes / syn highlighting
 set background=dark
-colorscheme solarized
+"colorscheme solarized
 " Use F5 key to toggle between dark and light backgrounds
-call togglebg#map("<F5>")
+"call togglebg#map("<F5>")
 
 " Force all .md files to be markdown instead of modula-2
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
