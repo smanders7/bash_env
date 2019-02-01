@@ -1,4 +1,4 @@
-" kuoney's vimrc file"
+" smanders's vimrc file"
 """"""""""""""""""""""
 
 " General settings
@@ -20,12 +20,12 @@ syntax enable
 
 " Windows Section
 """""""""""""""""
-if has('win32') || has('win64')
-	let $DOTFILES = 'E:/oney/dotfiles/vim'
-	set runtimepath=$DOTFILES,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$DOTFILES/after
-	set nobackup
-	set nowritebackup
-endif
+"if has('win32') || has('win64')
+"	let $DOTFILES = 'E:/smanders/dotfiles/vim'
+"	set runtimepath=$DOTFILES,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$DOTFILES/after
+"	set nobackup
+"	set nowritebackup
+"endif
 
 if has('gui_running')
 	set guifont=Consolas:h12

@@ -1,5 +1,5 @@
 export ORG=bca
 export QUEUE=sj-bcasw
-export PHOME='/projects/bcawlan_ext02/work/ko889424'
+export PHOME='/projects/bcawlan_ext03/work/sa925636'
 
 source $HOME/.dotfiles/host/brcm.sh

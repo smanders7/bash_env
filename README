@@ -1,4 +1,4 @@
 Installation:
-	git clone --recursive git://github.com/smanders7/bash_env/dotfiles.git ~/.dotfiles
+	git clone --recursive git://github.com/smanders7/dotfiles.git ~/.dotfiles
 	cd ~/.dotfiles
 	./update_links.pl
