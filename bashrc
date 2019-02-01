@@ -25,6 +25,7 @@ if [[ $- == *i* ]]; then
 fi
 
 # prompt, including git info
+# https://github.com/magicmonty/bash-git-prompt
 export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[36m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
 # Return if shell is non-interactive
 # [ -z "$PS1" ] && return
